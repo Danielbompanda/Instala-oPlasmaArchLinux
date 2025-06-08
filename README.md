@@ -16,7 +16,7 @@ Este é um guia simples para instalar o ambiente gráfico **KDE Plasma** em um A
 
 Execute o seguinte comando:
 
-sudo pacman -S plasma sddm sddm-kcm konsole dolphin firefox
+´´sudo pacman -S plasma sddm sddm-kcm konsole dolphin firefox``
 
 O que esses pacotes fazem:
 plasma: instala o ambiente de desktop KDE Plasma
