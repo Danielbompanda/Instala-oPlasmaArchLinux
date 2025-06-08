@@ -35,12 +35,15 @@ firefox: navegador web
 
 ## ⚙️ Ativando o login gráfico
 Após a instalação, ative o SDDM (display manager):
+
 sudo systemctl enable sddm
 
 ---
 
 ## 🔁 Reinicie o sistema
+
 sudo reboot
+
 Ao reiniciar, o sistema já carregará o KDE Plasma com o gerenciador de login gráfico ativo.
 
 ---
