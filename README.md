@@ -31,14 +31,20 @@ dolphin: gerenciador de arquivos gráfico
 
 firefox: navegador web
 
-⚙️ Ativando o login gráfico
+---
+
+## ⚙️ Ativando o login gráfico
 Após a instalação, ative o SDDM (display manager):
 sudo systemctl enable sddm
 
-🔁 Reinicie o sistema
+---
+
+## 🔁 Reinicie o sistema
 sudo reboot
 Ao reiniciar, o sistema já carregará o KDE Plasma com o gerenciador de login gráfico ativo.
 
-🧼 Dica (opcional)
+---
+
+## 🧼 Dica (opcional)
 Se quiser instalar apenas o essencial do Plasma, você pode substituir plasma por plasma-desktop (instala apenas o básico).
 
