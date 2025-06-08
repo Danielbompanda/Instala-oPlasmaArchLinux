@@ -16,8 +16,9 @@ Este é um guia simples para instalar o ambiente gráfico **KDE Plasma** em um A
 
 Execute o seguinte comando:
 
-```bash
+```
 sudo pacman -S plasma sddm sddm-kcm konsole dolphin firefox
+
 O que esses pacotes fazem:
 plasma: instala o ambiente de desktop KDE Plasma
 
@@ -33,15 +34,9 @@ firefox: navegador web
 
 ⚙️ Ativando o login gráfico
 Após a instalação, ative o SDDM (display manager):
-
-bash
-Copiar
-Editar
 sudo systemctl enable sddm
+
 🔁 Reinicie o sistema
-bash
-Copiar
-Editar
 sudo reboot
 Ao reiniciar, o sistema já carregará o KDE Plasma com o gerenciador de login gráfico ativo.
 
